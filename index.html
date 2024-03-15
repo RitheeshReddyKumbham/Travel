@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="sectionbookinghome">
+        <div class="main-background">
+            <h1 class="main-heading">Gogaga Travel and Tourism</h1>
+            <p class="description"> Tourism, the act and process of spending time away from home for recreation, relaxation, and pleasure. </p>
+            <div class="Holiday-packages">
+                <div class="package">
+                    <img src="https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/France/Paris/Attractions/the-louvre-paris-getty.jpg" class="package-image" />
+                    <p>Flight + 3 Nights</p>
+                    <p>Fri,Mar 15 - Mon,Mar 18</p>
+                    <p>PARIS</p>
+                    <div class="cost">
+                        <p>$6,000</p>
+                        <p> per person</p>
+                    </div>
+
+                    <div>
+                        <button class="bookFlight" onclick="display('sectionFlightBooking')">Book a Flight</button>
+                        <button class="bookHotel" onclick="display('sectionHotelBooking')">Book a Hotel</button>
+                    </div>
+                </div>
+                <div class="package">
+                    <img src="https://images6.alphacoders.com/673/thumb-1920-673872.jpg" class="package-image" />
+                    <p>Flight + 3 Nights</p>
+                    <p>Fri,Mar 15 - Mon,Mar 18</p>
+                    <p>SWITZERLAND</p>
+                    <div class="cost">
+                        <p>$5,000</p>
+                        <p> per person</p>
+                    </div>
+                    <div>
+                        <button class="bookFlight" onclick="display('sectionFlightBooking')">Book a Flight</button>
+                        <button class="bookHotel" onclick="display('sectionHotelBooking')">Book a Hotel</button>
+                    </div>
+                </div>
+
+                <div class="package">
+                    <img src="https://offbeatjapan.global.ssl.fastly.net/wp-content/uploads/2011/10/tokyo-tower-night-roppongi-hills.jpg" class="package-image" />
+                    <p>Flight + 3 Nights</p>
+                    <p>Fri,Mar 15 - Mon,Mar 18</p>
+                    <p>TOKYO</p>
+                    <div class="cost">
+                        <p>$3,000</p>
+                        <p> per person</p>
+                    </div>
+                    <div>
+                        <button class="bookFlight" onclick="display('sectionFlightBooking')">Book a Flight</button>
+                        <button class="bookHotel" onclick="display('sectionHotelBooking')">Book a Hotel</button>
+                    </div>
+                </div>
+                <div class="package">
+                    <img src="https://static.saltinourhair.com/wp-content/uploads/2020/02/23122724/peru-machu-picchu-unesco-world-heritage.jpg" class="package-image" />
+                    <p>Flight + 3 Nights</p>
+                    <p>Fri,Mar 15 - Mon,Mar 18</p>
+                    <p>PERU</p>
+                    <div class="cost">
+                        <p>$4,000</p>
+                        <p> per person</p>
+                    </div>
+                    <div>
+                        <button class="bookFlight" onclick="display('sectionFlightBooking')">Book a Flight</button>
+                        <button class="bookHotel" onclick="display('sectionHotelBooking')">Book a Hotel</button>
+                    </div>
+                </div>
+                <div class="package">
+                    <img src="https://image.cnbcfm.com/api/v1/image/106616793-1594805802117gettyimages-900809876.jpg?v=1594864515" class="package-image" />
+                    <p>Flight + 3 Nights</p>
+                    <p>Fri,Mar 15 - Mon,Mar 18</p>
+                    <p>MALDIVES</p>
+                    <div class="cost">
+                        <p>$3,500</p>
+                        <p> per person</p>
+                    </div>
+                    <div>
+                        <button class="bookFlight" onclick="display('sectionFlightBooking')">Book a Flight</button>
+                        <button class="bookHotel" onclick="display('sectionHotelBooking')">Book a Hotel</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sectionFlightBooking">
+        <div class="flight-background">
+
+            <div class="Classes">
+                <div class="economy">
+                    <h1>Economy Class</h1>
+                    <p>Search your flight here</p>
+                    <a href="https://www.easemytrip.com/">book now</a>
+
+
+                </div>
+                <div class="business">
+                    <h1>Business Class</h1>
+                    <p>Search your flight here</p>
+                    <a href="https://www.easemytrip.com/">book now</a>
+                </div>
+            </div>
+            <button class="back-button" onclick="display('sectionbookinghome')">Back</button>
+        </div>
+    </div>
+
+
+    <div id="sectionHotelBooking">
+        <div class="hotel-background">
+            <div class="hotel">
+                <h3>Book Hotels Here</h3>
+                <p>Search your hotel here</p>
+                <a href="https://www.booking.com/motels/">book now</a>
+                <button class="back-button" onclick="display('sectionbookinghome')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
